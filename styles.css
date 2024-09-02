@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 400px;
+    background-color: dimgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(./imeg/b3319029cf0739720eb072006bda6928.jpg) bottom no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: darkslateblue;
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+footer .links {
+    margin-bottom: 50px;
+}
+footer .links > a {
+    color: #483d8b;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.copyright {
+    color: rgb(72, 61, 139);
+    font-family: 'Times New Roman', Times, serif;
+}
+.news {
+    background-color: #fff;
+    padding: 50px 0 50px;
+
+}
+article {
+    width: 768px;
+    margin: 0 auto 32px;
+    padding: 6px 15px;
+    border-bottom: 1px solid rgb(72, 61, 139);
+}
+article a {
+    color: rgb(89, 23, 1);
+    text-decoration: none;
+}
+article a:hover {
+    color: rgb(231, 30, 50);
+}
+article h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+.article-meta {
+    color: rgb(134, 142, 150);
+    margin-bottom: 5px;
+}
+article img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+article p {
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: inherit;
+}
+
+article h3 {
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
